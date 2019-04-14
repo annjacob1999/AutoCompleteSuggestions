@@ -17,6 +17,8 @@ To run the test scenario
 
 Prerequisites 
 
-1.Set up JDK on your system (JDK 1.8 or the latest version)
-2.Install apache-maven-3.6.0 and set bin path in Environment variable /path if it is Windows machine, Mac install apache-maven-3.6.0 with “brew install maven”
+1. Set up JDK on your system (JDK 1.8 or the latest version)
+
+2. Install apache-maven-3.6.0 and set bin path in Environment variable /path if it is Windows machine, Mac install apache-maven-3.6.0 with “brew install maven”
+
 3. Clone  git repo and  Run “mvn verify” from the root directory  AutoCompleteSuggestions
