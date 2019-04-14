@@ -1,0 +1,368 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2012993319,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "AutoCompletion Search filters with a Search term and term is bold",
+        "description": "",
+        "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 162006772,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2844439375,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "WebPage is displayed",
+            "match": {
+              "location": "MyStepdefs.webpageIsDisplayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 776670477,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "AutoCompletionSearch is  available",
+            "match": {
+              "location": "MyStepdefs.autocompletionsearchIsAvailable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2313110414,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the search term \"p\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "p",
+                  "offset": 23
+                }
+              ],
+              "location": "MyStepdefs.enter_the_search_term(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48729,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "List is filtered on the Search term and the term is bold in the list",
+            "match": {
+              "location": "MyStepdefs.listIsFilteredOnTheSearchTermAndIsBold()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1220328089,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "AutoCompletion Search filters with a Search term and term is bold",
+        "description": "",
+        "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 157244812,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3369699111,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "WebPage is displayed",
+            "match": {
+              "location": "MyStepdefs.webpageIsDisplayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 257042094,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "AutoCompletionSearch is  available",
+            "match": {
+              "location": "MyStepdefs.autocompletionsearchIsAvailable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2951048464,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the search term \"pr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pr",
+                  "offset": 23
+                }
+              ],
+              "location": "MyStepdefs.enter_the_search_term(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32709,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "List is filtered on the Search term and the term is bold in the list",
+            "match": {
+              "location": "MyStepdefs.listIsFilteredOnTheSearchTermAndIsBold()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1220301420,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "AutoCompletion Search filters with a Search term and term is bold",
+        "description": "",
+        "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 174556501,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5556925381,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "WebPage is displayed",
+            "match": {
+              "location": "MyStepdefs.webpageIsDisplayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 473654483,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "AutoCompletionSearch is  available",
+            "match": {
+              "location": "MyStepdefs.autocompletionsearchIsAvailable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2784966179,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the search term \"print\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "print",
+                  "offset": 23
+                }
+              ],
+              "location": "MyStepdefs.enter_the_search_term(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29139,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "List is filtered on the Search term and the term is bold in the list",
+            "match": {
+              "location": "MyStepdefs.listIsFilteredOnTheSearchTermAndIsBold()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1287033411,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "AutoCompletion Search filters with a Search term and term is bold",
+        "description": "",
+        "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 158269747,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3972442575,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "WebPage is displayed",
+            "match": {
+              "location": "MyStepdefs.webpageIsDisplayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1966828777,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "AutoCompletionSearch is  available",
+            "match": {
+              "location": "MyStepdefs.autocompletionsearchIsAvailable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1302607671,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the search term \"printer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "printer",
+                  "offset": 23
+                }
+              ],
+              "location": "MyStepdefs.enter_the_search_term(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29989,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "List is filtered on the Search term and the term is bold in the list",
+            "match": {
+              "location": "MyStepdefs.listIsFilteredOnTheSearchTermAndIsBold()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test a Scenario",
+    "description": "",
+    "id": "test-a-scenario",
+    "keyword": "Feature",
+    "uri": "AutoCompletionSuggestions.feature"
+  }
+]
