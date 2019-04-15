@@ -1,7 +1,8 @@
 # AutoCompleteSuggestions
+
 An Automation Project in SeleniumJavaCucumber running with maven 
 
-The tests automated are the first 3 scenarios from the list of testcase scenarios in word document *TestScenarios*.
+The tests automated are the first 3 scenarios from the list of testcase scenarios in word document *TestScenarios*. 
 
  **Cucumber ,Selenium with Java, TestNG, maven **
 
