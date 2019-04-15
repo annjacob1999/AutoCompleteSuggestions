@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2012993319,
+              "duration": 1995323135,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 12,
-        "name": "AutoCompletion Search filters with a Search term and term is bold",
-        "description": "",
-        "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;;2",
+        "line": 15,
+        "name": "AutoCompletion Search filters with a Search term , term is bold and",
+        "description": "the list is limited to certain number of suggestions",
+        "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;;2",
         "after": [
           {
             "result": {
-              "duration": 162006772,
+              "duration": 180403016,
               "status": "passed"
             },
             "match": {
@@ -34,10 +34,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2844439375,
+              "duration": 2820306570,
               "status": "passed"
             },
-            "line": 5,
+            "line": 7,
             "name": "WebPage is displayed",
             "match": {
               "location": "MyStepdefs.webpageIsDisplayed()"
@@ -46,10 +46,10 @@
           },
           {
             "result": {
-              "duration": 776670477,
+              "duration": 1878599377,
               "status": "passed"
             },
-            "line": 6,
+            "line": 8,
             "name": "AutoCompletionSearch is  available",
             "match": {
               "location": "MyStepdefs.autocompletionsearchIsAvailable()"
@@ -58,10 +58,10 @@
           },
           {
             "result": {
-              "duration": 2313110414,
+              "duration": 1416611304,
               "status": "passed"
             },
-            "line": 7,
+            "line": 9,
             "name": "enter the search term \"p\"",
             "match": {
               "arguments": [
@@ -79,15 +79,33 @@
           },
           {
             "result": {
-              "duration": 48729,
+              "duration": 782477,
               "status": "passed"
             },
-            "line": 8,
+            "line": 10,
+            "name": "List has less than or equal to 10 enries",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 31
+                }
+              ],
+              "location": "MyStepdefs.listHasLessThanOrEqualToEnries(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62611,
+              "status": "passed"
+            },
+            "line": 11,
             "name": "List is filtered on the Search term and the term is bold in the list",
             "match": {
               "location": "MyStepdefs.listIsFilteredOnTheSearchTermAndIsBold()"
             },
-            "keyword": "Then "
+            "keyword": "And "
           }
         ]
       },
@@ -95,7 +113,7 @@
         "before": [
           {
             "result": {
-              "duration": 1220328089,
+              "duration": 1324772692,
               "status": "passed"
             },
             "match": {
@@ -103,14 +121,14 @@
             }
           }
         ],
-        "line": 13,
-        "name": "AutoCompletion Search filters with a Search term and term is bold",
-        "description": "",
-        "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;;3",
+        "line": 16,
+        "name": "AutoCompletion Search filters with a Search term , term is bold and",
+        "description": "the list is limited to certain number of suggestions",
+        "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;;3",
         "after": [
           {
             "result": {
-              "duration": 157244812,
+              "duration": 173988409,
               "status": "passed"
             },
             "match": {
@@ -123,10 +141,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3369699111,
+              "duration": 4047128984,
               "status": "passed"
             },
-            "line": 5,
+            "line": 7,
             "name": "WebPage is displayed",
             "match": {
               "location": "MyStepdefs.webpageIsDisplayed()"
@@ -135,10 +153,10 @@
           },
           {
             "result": {
-              "duration": 257042094,
+              "duration": 1804995358,
               "status": "passed"
             },
-            "line": 6,
+            "line": 8,
             "name": "AutoCompletionSearch is  available",
             "match": {
               "location": "MyStepdefs.autocompletionsearchIsAvailable()"
@@ -147,10 +165,10 @@
           },
           {
             "result": {
-              "duration": 2951048464,
+              "duration": 1312959630,
               "status": "passed"
             },
-            "line": 7,
+            "line": 9,
             "name": "enter the search term \"pr\"",
             "match": {
               "arguments": [
@@ -168,15 +186,33 @@
           },
           {
             "result": {
-              "duration": 32709,
+              "duration": 89289,
               "status": "passed"
             },
-            "line": 8,
+            "line": 10,
+            "name": "List has less than or equal to 10 enries",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 31
+                }
+              ],
+              "location": "MyStepdefs.listHasLessThanOrEqualToEnries(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26459,
+              "status": "passed"
+            },
+            "line": 11,
             "name": "List is filtered on the Search term and the term is bold in the list",
             "match": {
               "location": "MyStepdefs.listIsFilteredOnTheSearchTermAndIsBold()"
             },
-            "keyword": "Then "
+            "keyword": "And "
           }
         ]
       },
@@ -184,7 +220,7 @@
         "before": [
           {
             "result": {
-              "duration": 1220301420,
+              "duration": 1304921876,
               "status": "passed"
             },
             "match": {
@@ -192,14 +228,14 @@
             }
           }
         ],
-        "line": 14,
-        "name": "AutoCompletion Search filters with a Search term and term is bold",
-        "description": "",
-        "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;;4",
+        "line": 17,
+        "name": "AutoCompletion Search filters with a Search term , term is bold and",
+        "description": "the list is limited to certain number of suggestions",
+        "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;;4",
         "after": [
           {
             "result": {
-              "duration": 174556501,
+              "duration": 170316823,
               "status": "passed"
             },
             "match": {
@@ -212,10 +248,10 @@
         "steps": [
           {
             "result": {
-              "duration": 5556925381,
+              "duration": 2616670136,
               "status": "passed"
             },
-            "line": 5,
+            "line": 7,
             "name": "WebPage is displayed",
             "match": {
               "location": "MyStepdefs.webpageIsDisplayed()"
@@ -224,10 +260,10 @@
           },
           {
             "result": {
-              "duration": 473654483,
+              "duration": 274957536,
               "status": "passed"
             },
-            "line": 6,
+            "line": 8,
             "name": "AutoCompletionSearch is  available",
             "match": {
               "location": "MyStepdefs.autocompletionsearchIsAvailable()"
@@ -236,10 +272,10 @@
           },
           {
             "result": {
-              "duration": 2784966179,
+              "duration": 3137953252,
               "status": "passed"
             },
-            "line": 7,
+            "line": 9,
             "name": "enter the search term \"print\"",
             "match": {
               "arguments": [
@@ -257,15 +293,33 @@
           },
           {
             "result": {
-              "duration": 29139,
+              "duration": 81534,
               "status": "passed"
             },
-            "line": 8,
+            "line": 10,
+            "name": "List has less than or equal to 10 enries",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 31
+                }
+              ],
+              "location": "MyStepdefs.listHasLessThanOrEqualToEnries(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34280,
+              "status": "passed"
+            },
+            "line": 11,
             "name": "List is filtered on the Search term and the term is bold in the list",
             "match": {
               "location": "MyStepdefs.listIsFilteredOnTheSearchTermAndIsBold()"
             },
-            "keyword": "Then "
+            "keyword": "And "
           }
         ]
       },
@@ -273,7 +327,7 @@
         "before": [
           {
             "result": {
-              "duration": 1287033411,
+              "duration": 1384104136,
               "status": "passed"
             },
             "match": {
@@ -281,14 +335,14 @@
             }
           }
         ],
-        "line": 15,
-        "name": "AutoCompletion Search filters with a Search term and term is bold",
-        "description": "",
-        "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;;5",
+        "line": 18,
+        "name": "AutoCompletion Search filters with a Search term , term is bold and",
+        "description": "the list is limited to certain number of suggestions",
+        "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;;5",
         "after": [
           {
             "result": {
-              "duration": 158269747,
+              "duration": 170797910,
               "status": "passed"
             },
             "match": {
@@ -301,10 +355,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3972442575,
+              "duration": 2816016497,
               "status": "passed"
             },
-            "line": 5,
+            "line": 7,
             "name": "WebPage is displayed",
             "match": {
               "location": "MyStepdefs.webpageIsDisplayed()"
@@ -313,10 +367,10 @@
           },
           {
             "result": {
-              "duration": 1966828777,
+              "duration": 538502254,
               "status": "passed"
             },
-            "line": 6,
+            "line": 8,
             "name": "AutoCompletionSearch is  available",
             "match": {
               "location": "MyStepdefs.autocompletionsearchIsAvailable()"
@@ -325,10 +379,10 @@
           },
           {
             "result": {
-              "duration": 1302607671,
+              "duration": 2828453792,
               "status": "passed"
             },
-            "line": 7,
+            "line": 9,
             "name": "enter the search term \"printer\"",
             "match": {
               "arguments": [
@@ -346,15 +400,33 @@
           },
           {
             "result": {
-              "duration": 29989,
+              "duration": 75257,
               "status": "passed"
             },
-            "line": 8,
+            "line": 10,
+            "name": "List has less than or equal to 10 enries",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 31
+                }
+              ],
+              "location": "MyStepdefs.listHasLessThanOrEqualToEnries(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18911,
+              "status": "passed"
+            },
+            "line": 11,
             "name": "List is filtered on the Search term and the term is bold in the list",
             "match": {
               "location": "MyStepdefs.listIsFilteredOnTheSearchTermAndIsBold()"
             },
-            "keyword": "Then "
+            "keyword": "And "
           }
         ]
       }

@@ -72,4 +72,9 @@ public class MyStepdefs extends BaseUtil {
         }
 
     }
+    @Then("^List has less than or equal to (\\d+) enries$")
+    public void listHasLessThanOrEqualToEnries(int entries) {
+        Assert.assertTrue("The list has less than 10 entries which is " + ActAutoSuggestions.size() ,ActAutoSuggestions.size()<=entries);
+
+    }
 }

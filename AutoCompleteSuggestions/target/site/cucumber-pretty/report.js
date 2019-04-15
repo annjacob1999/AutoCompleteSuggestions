@@ -8,100 +8,105 @@ formatter.feature({
 });
 formatter.scenarioOutline({
   "line": 4,
-  "name": "AutoCompletion Search filters with a Search term and term is bold",
-  "description": "",
-  "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold",
+  "name": "AutoCompletion Search filters with a Search term , term is bold and",
+  "description": "the list is limited to certain number of suggestions",
+  "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and",
   "type": "scenario_outline",
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 5,
+  "line": 7,
   "name": "WebPage is displayed",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 6,
+  "line": 8,
   "name": "AutoCompletionSearch is  available",
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
+  "line": 9,
   "name": "enter the search term \u003cterm\u003e",
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
-  "name": "List is filtered on the Search term and the term is bold in the list",
+  "line": 10,
+  "name": "List has less than or equal to 10 enries",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 11,
+  "name": "List is filtered on the Search term and the term is bold in the list",
+  "keyword": "And "
+});
 formatter.examples({
-  "line": 10,
+  "line": 13,
   "name": "",
   "description": "",
-  "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;",
+  "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;",
   "rows": [
     {
       "cells": [
         "term"
       ],
-      "line": 11,
-      "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;;1"
+      "line": 14,
+      "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;;1"
     },
     {
       "cells": [
         "\"p\""
       ],
-      "line": 12,
-      "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;;2"
+      "line": 15,
+      "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;;2"
     },
     {
       "cells": [
         "\"pr\""
       ],
-      "line": 13,
-      "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;;3"
+      "line": 16,
+      "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;;3"
     },
     {
       "cells": [
         "\"print\""
       ],
-      "line": 14,
-      "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;;4"
+      "line": 17,
+      "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;;4"
     },
     {
       "cells": [
         "\"printer\""
       ],
-      "line": 15,
-      "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;;5"
+      "line": 18,
+      "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;;5"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2012993319,
+  "duration": 1995323135,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 12,
-  "name": "AutoCompletion Search filters with a Search term and term is bold",
-  "description": "",
-  "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;;2",
+  "line": 15,
+  "name": "AutoCompletion Search filters with a Search term , term is bold and",
+  "description": "the list is limited to certain number of suggestions",
+  "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;;2",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 5,
+  "line": 7,
   "name": "WebPage is displayed",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 6,
+  "line": 8,
   "name": "AutoCompletionSearch is  available",
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
+  "line": 9,
   "name": "enter the search term \"p\"",
   "matchedColumns": [
     0
@@ -109,22 +114,27 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
-  "name": "List is filtered on the Search term and the term is bold in the list",
+  "line": 10,
+  "name": "List has less than or equal to 10 enries",
   "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "List is filtered on the Search term and the term is bold in the list",
+  "keyword": "And "
 });
 formatter.match({
   "location": "MyStepdefs.webpageIsDisplayed()"
 });
 formatter.result({
-  "duration": 2844439375,
+  "duration": 2820306570,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.autocompletionsearchIsAvailable()"
 });
 formatter.result({
-  "duration": 776670477,
+  "duration": 1878599377,
   "status": "passed"
 });
 formatter.match({
@@ -137,44 +147,57 @@ formatter.match({
   "location": "MyStepdefs.enter_the_search_term(String)"
 });
 formatter.result({
-  "duration": 2313110414,
+  "duration": 1416611304,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "10",
+      "offset": 31
+    }
+  ],
+  "location": "MyStepdefs.listHasLessThanOrEqualToEnries(int)"
+});
+formatter.result({
+  "duration": 782477,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.listIsFilteredOnTheSearchTermAndIsBold()"
 });
 formatter.result({
-  "duration": 48729,
+  "duration": 62611,
   "status": "passed"
 });
 formatter.after({
-  "duration": 162006772,
+  "duration": 180403016,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1220328089,
+  "duration": 1324772692,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 13,
-  "name": "AutoCompletion Search filters with a Search term and term is bold",
-  "description": "",
-  "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;;3",
+  "line": 16,
+  "name": "AutoCompletion Search filters with a Search term , term is bold and",
+  "description": "the list is limited to certain number of suggestions",
+  "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;;3",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 5,
+  "line": 7,
   "name": "WebPage is displayed",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 6,
+  "line": 8,
   "name": "AutoCompletionSearch is  available",
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
+  "line": 9,
   "name": "enter the search term \"pr\"",
   "matchedColumns": [
     0
@@ -182,22 +205,27 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
-  "name": "List is filtered on the Search term and the term is bold in the list",
+  "line": 10,
+  "name": "List has less than or equal to 10 enries",
   "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "List is filtered on the Search term and the term is bold in the list",
+  "keyword": "And "
 });
 formatter.match({
   "location": "MyStepdefs.webpageIsDisplayed()"
 });
 formatter.result({
-  "duration": 3369699111,
+  "duration": 4047128984,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.autocompletionsearchIsAvailable()"
 });
 formatter.result({
-  "duration": 257042094,
+  "duration": 1804995358,
   "status": "passed"
 });
 formatter.match({
@@ -210,44 +238,57 @@ formatter.match({
   "location": "MyStepdefs.enter_the_search_term(String)"
 });
 formatter.result({
-  "duration": 2951048464,
+  "duration": 1312959630,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "10",
+      "offset": 31
+    }
+  ],
+  "location": "MyStepdefs.listHasLessThanOrEqualToEnries(int)"
+});
+formatter.result({
+  "duration": 89289,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.listIsFilteredOnTheSearchTermAndIsBold()"
 });
 formatter.result({
-  "duration": 32709,
+  "duration": 26459,
   "status": "passed"
 });
 formatter.after({
-  "duration": 157244812,
+  "duration": 173988409,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1220301420,
+  "duration": 1304921876,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 14,
-  "name": "AutoCompletion Search filters with a Search term and term is bold",
-  "description": "",
-  "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;;4",
+  "line": 17,
+  "name": "AutoCompletion Search filters with a Search term , term is bold and",
+  "description": "the list is limited to certain number of suggestions",
+  "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;;4",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 5,
+  "line": 7,
   "name": "WebPage is displayed",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 6,
+  "line": 8,
   "name": "AutoCompletionSearch is  available",
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
+  "line": 9,
   "name": "enter the search term \"print\"",
   "matchedColumns": [
     0
@@ -255,22 +296,27 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
-  "name": "List is filtered on the Search term and the term is bold in the list",
+  "line": 10,
+  "name": "List has less than or equal to 10 enries",
   "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "List is filtered on the Search term and the term is bold in the list",
+  "keyword": "And "
 });
 formatter.match({
   "location": "MyStepdefs.webpageIsDisplayed()"
 });
 formatter.result({
-  "duration": 5556925381,
+  "duration": 2616670136,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.autocompletionsearchIsAvailable()"
 });
 formatter.result({
-  "duration": 473654483,
+  "duration": 274957536,
   "status": "passed"
 });
 formatter.match({
@@ -283,44 +329,57 @@ formatter.match({
   "location": "MyStepdefs.enter_the_search_term(String)"
 });
 formatter.result({
-  "duration": 2784966179,
+  "duration": 3137953252,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "10",
+      "offset": 31
+    }
+  ],
+  "location": "MyStepdefs.listHasLessThanOrEqualToEnries(int)"
+});
+formatter.result({
+  "duration": 81534,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.listIsFilteredOnTheSearchTermAndIsBold()"
 });
 formatter.result({
-  "duration": 29139,
+  "duration": 34280,
   "status": "passed"
 });
 formatter.after({
-  "duration": 174556501,
+  "duration": 170316823,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1287033411,
+  "duration": 1384104136,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 15,
-  "name": "AutoCompletion Search filters with a Search term and term is bold",
-  "description": "",
-  "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-and-term-is-bold;;5",
+  "line": 18,
+  "name": "AutoCompletion Search filters with a Search term , term is bold and",
+  "description": "the list is limited to certain number of suggestions",
+  "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;;5",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 5,
+  "line": 7,
   "name": "WebPage is displayed",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 6,
+  "line": 8,
   "name": "AutoCompletionSearch is  available",
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
+  "line": 9,
   "name": "enter the search term \"printer\"",
   "matchedColumns": [
     0
@@ -328,22 +387,27 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
-  "name": "List is filtered on the Search term and the term is bold in the list",
+  "line": 10,
+  "name": "List has less than or equal to 10 enries",
   "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "List is filtered on the Search term and the term is bold in the list",
+  "keyword": "And "
 });
 formatter.match({
   "location": "MyStepdefs.webpageIsDisplayed()"
 });
 formatter.result({
-  "duration": 3972442575,
+  "duration": 2816016497,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.autocompletionsearchIsAvailable()"
 });
 formatter.result({
-  "duration": 1966828777,
+  "duration": 538502254,
   "status": "passed"
 });
 formatter.match({
@@ -356,18 +420,31 @@ formatter.match({
   "location": "MyStepdefs.enter_the_search_term(String)"
 });
 formatter.result({
-  "duration": 1302607671,
+  "duration": 2828453792,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "10",
+      "offset": 31
+    }
+  ],
+  "location": "MyStepdefs.listHasLessThanOrEqualToEnries(int)"
+});
+formatter.result({
+  "duration": 75257,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.listIsFilteredOnTheSearchTermAndIsBold()"
 });
 formatter.result({
-  "duration": 29989,
+  "duration": 18911,
   "status": "passed"
 });
 formatter.after({
-  "duration": 158269747,
+  "duration": 170797910,
   "status": "passed"
 });
 });
