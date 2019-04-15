@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 1995323135,
+              "duration": 2220976943,
               "status": "passed"
             },
             "match": {
@@ -16,12 +16,12 @@
         ],
         "line": 15,
         "name": "AutoCompletion Search filters with a Search term , term is bold and",
-        "description": "the list is limited to certain number of suggestions",
+        "description": "                 the list is limited to certain number of suggestions",
         "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;;2",
         "after": [
           {
             "result": {
-              "duration": 180403016,
+              "duration": 192186712,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2820306570,
+              "duration": 3320046128,
               "status": "passed"
             },
             "line": 7,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 1878599377,
+              "duration": 2082884459,
               "status": "passed"
             },
             "line": 8,
@@ -58,16 +58,16 @@
           },
           {
             "result": {
-              "duration": 1416611304,
+              "duration": 1238453153,
               "status": "passed"
             },
             "line": 9,
-            "name": "enter the search term \"p\"",
+            "name": "I enter the search term \"p\"",
             "match": {
               "arguments": [
                 {
                   "val": "p",
-                  "offset": 23
+                  "offset": 25
                 }
               ],
               "location": "MyStepdefs.enter_the_search_term(String)"
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 782477,
+              "duration": 1234670,
               "status": "passed"
             },
             "line": 10,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 62611,
+              "duration": 92809,
               "status": "passed"
             },
             "line": 11,
@@ -113,7 +113,7 @@
         "before": [
           {
             "result": {
-              "duration": 1324772692,
+              "duration": 1407323987,
               "status": "passed"
             },
             "match": {
@@ -123,12 +123,12 @@
         ],
         "line": 16,
         "name": "AutoCompletion Search filters with a Search term , term is bold and",
-        "description": "the list is limited to certain number of suggestions",
+        "description": "                 the list is limited to certain number of suggestions",
         "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;;3",
         "after": [
           {
             "result": {
-              "duration": 173988409,
+              "duration": 182883274,
               "status": "passed"
             },
             "match": {
@@ -141,7 +141,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4047128984,
+              "duration": 2855440251,
               "status": "passed"
             },
             "line": 7,
@@ -153,7 +153,7 @@
           },
           {
             "result": {
-              "duration": 1804995358,
+              "duration": 1902289722,
               "status": "passed"
             },
             "line": 8,
@@ -165,16 +165,16 @@
           },
           {
             "result": {
-              "duration": 1312959630,
+              "duration": 1398457820,
               "status": "passed"
             },
             "line": 9,
-            "name": "enter the search term \"pr\"",
+            "name": "I enter the search term \"pr\"",
             "match": {
               "arguments": [
                 {
                   "val": "pr",
-                  "offset": 23
+                  "offset": 25
                 }
               ],
               "location": "MyStepdefs.enter_the_search_term(String)"
@@ -186,7 +186,7 @@
           },
           {
             "result": {
-              "duration": 89289,
+              "duration": 129319,
               "status": "passed"
             },
             "line": 10,
@@ -204,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 26459,
+              "duration": 31282,
               "status": "passed"
             },
             "line": 11,
@@ -220,7 +220,7 @@
         "before": [
           {
             "result": {
-              "duration": 1304921876,
+              "duration": 1335709862,
               "status": "passed"
             },
             "match": {
@@ -230,12 +230,12 @@
         ],
         "line": 17,
         "name": "AutoCompletion Search filters with a Search term , term is bold and",
-        "description": "the list is limited to certain number of suggestions",
+        "description": "                 the list is limited to certain number of suggestions",
         "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;;4",
         "after": [
           {
             "result": {
-              "duration": 170316823,
+              "duration": 208655827,
               "status": "passed"
             },
             "match": {
@@ -248,7 +248,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2616670136,
+              "duration": 2891192022,
               "status": "passed"
             },
             "line": 7,
@@ -260,7 +260,7 @@
           },
           {
             "result": {
-              "duration": 274957536,
+              "duration": 630977532,
               "status": "passed"
             },
             "line": 8,
@@ -272,16 +272,16 @@
           },
           {
             "result": {
-              "duration": 3137953252,
+              "duration": 2653609975,
               "status": "passed"
             },
             "line": 9,
-            "name": "enter the search term \"print\"",
+            "name": "I enter the search term \"print\"",
             "match": {
               "arguments": [
                 {
                   "val": "print",
-                  "offset": 23
+                  "offset": 25
                 }
               ],
               "location": "MyStepdefs.enter_the_search_term(String)"
@@ -293,7 +293,7 @@
           },
           {
             "result": {
-              "duration": 81534,
+              "duration": 99717,
               "status": "passed"
             },
             "line": 10,
@@ -311,7 +311,7 @@
           },
           {
             "result": {
-              "duration": 34280,
+              "duration": 29639,
               "status": "passed"
             },
             "line": 11,
@@ -327,7 +327,7 @@
         "before": [
           {
             "result": {
-              "duration": 1384104136,
+              "duration": 1290727735,
               "status": "passed"
             },
             "match": {
@@ -337,12 +337,12 @@
         ],
         "line": 18,
         "name": "AutoCompletion Search filters with a Search term , term is bold and",
-        "description": "the list is limited to certain number of suggestions",
+        "description": "                 the list is limited to certain number of suggestions",
         "id": "test-a-scenario;autocompletion-search-filters-with-a-search-term-,-term-is-bold-and;;5",
         "after": [
           {
             "result": {
-              "duration": 170797910,
+              "duration": 210625210,
               "status": "passed"
             },
             "match": {
@@ -355,7 +355,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2816016497,
+              "duration": 2922398581,
               "status": "passed"
             },
             "line": 7,
@@ -367,7 +367,7 @@
           },
           {
             "result": {
-              "duration": 538502254,
+              "duration": 1824212106,
               "status": "passed"
             },
             "line": 8,
@@ -379,16 +379,16 @@
           },
           {
             "result": {
-              "duration": 2828453792,
+              "duration": 1458143666,
               "status": "passed"
             },
             "line": 9,
-            "name": "enter the search term \"printer\"",
+            "name": "I enter the search term \"printer\"",
             "match": {
               "arguments": [
                 {
                   "val": "printer",
-                  "offset": 23
+                  "offset": 25
                 }
               ],
               "location": "MyStepdefs.enter_the_search_term(String)"
@@ -400,7 +400,7 @@
           },
           {
             "result": {
-              "duration": 75257,
+              "duration": 70583,
               "status": "passed"
             },
             "line": 10,
@@ -418,7 +418,7 @@
           },
           {
             "result": {
-              "duration": 18911,
+              "duration": 20038,
               "status": "passed"
             },
             "line": 11,

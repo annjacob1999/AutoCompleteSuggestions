@@ -6,7 +6,7 @@ Feature: Test a Scenario
 
     Given WebPage is displayed
     And AutoCompletionSearch is  available
-    When enter the search term <term>
+    When I enter the search term <term>
     Then List has less than or equal to 10 enries
     And List is filtered on the Search term and the term is bold in the list
 
